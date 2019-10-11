@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>电梯侠官网</title>                                                                                                                                               
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- 顶部导航栏 -->
+        <div class="top-bar">
+            <div class="bar-content heart clearfix">
+                <div class="bar-left clearfix">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="bar-right clearfix">
+                    <div class="bar-magnifier" style="float: left;">
+                        <img src="./img/search.png" alt="">
+                    </div>
+                    <a href="./login.html" class="bar-login">登录</a>
+                    <a href="./register.html" class="bar-register">注册</a>
+                </div>
+                <div class="bar-personBtn">
+                    <img alt="">
+                    <span class="bar-personName"></span>
+                    <div class="bar-afterLogin">
+                        <div class="bar-setup">
+                            <span class="cursor">
+                                <a href="./setUp.html">设置</a>
+                            </span>
+                        </div>
+                        <div class="bar-logout">
+                            <span class="cursor">退出</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- 搜索区域 -->
+        <div class="search">
+            <div class="search-content heart">
+                <div class="search-left">
+                    <a href="javascript:;" class="search-popular">热门视频、文章&nbsp;&nbsp;></a>
+                    <div class="search-leftshow">
+                        <div>
+                            <a href="javascript:;" class="spanBtn" data-flag="e"> 
+                                <img src="./img/img13.jpg" alt="">
+                            </a>
+                            <span class="spanBtn" data-flag="e" style="cursor: pointer;">电梯侠版本的沙漠骆驼！</span>
+                        </div>
+                        <div>
+                            <a href="javascript:;" class="spanBtn" data-flag="f">  
+                                 <img src="./img/img15.jpg" alt="">
+                            </a>
+                            <span class="spanBtn" data-flag="f" style="cursor: pointer;">维护电梯和平的英雄！</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-right">
+                    <div class="search-input">
+                        <input type="text" placeholder="请输入您想要查找的内容" class="input-search">
+                        <div>搜索</div>
+                        <ul class="search-ullist">
+                            
+                        </ul>
+                    </div>
+                    <ul class="search-label">
+                        <li>
+                            <a href="javascript:;" data-flag="a">太空电梯</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-flag="b">电梯侠</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-flag="c">哪吒</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 轮播图区域 -->
+        <div class="banner">
+            <div class="banner-content heart">
+                <!-- 放轮播图的ul li -->
+                <div class="banner-leftArrow">
+                    
+                </div>
+                <div class="banner-rightArrow">
+                    
+                </div>
+                <ul class="banner-ul">
+                    <li class="banner-li">
+                        <a href="javascript:;">
+                            <img src="./img/banner3.png" alt="">
+                        </a>
+                    </li>
+                    <li class="banner-li">
+                        <a href="javascript:;">
+                            <img src="./img/banner1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="banner-li">
+                        <a href="javascript:;">
+                            <img src="./img/banner2.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="banner-li">
+                        <a href="javascript:;">
+                            <img src="./img/banner3.png" alt="">
+                        </a>
+                    </li>
+                    <li class="banner-li">
+                        <a href="javascript:;">
+                            <img src="./img/banner1.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="banner-choose">
+                    <ul class="clearfix">
+                        <li class="banner-circle active"></li>
+                        <li class="banner-circle"></li>
+                        <li class="banner-circle"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner-special heart clearfix">
+                <a href="javascript:;" class="special-poster" onclick="clickToShow('poster')">
+                    <img src="./img/special.jpg" alt="">
+                </a>
+                <a href="javascript:;" class="special-file" onclick="clickToShow('file')">
+                    <img src="./img/special2.jpg" alt="">
+                </a>
+                <a href="javascript:;" class="special-world" onclick="clickToShow('world')">
+                    <img src="./img/special3.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- 视频区域 -->
+        <div class="video">
+            <div class="video-btn heart clearfix">
+                <div class="btn-active recommend-video">
+                    推荐视频
+                </div>
+                <div class="newest-video">
+                    最新视频
+                </div>
+            </div>
+            <div class="video-content heart clearfix">
+                
+            </div>
+            <div class="video-page heart">
+                <div class="video-pagecontent">
+                    <div class="video-circle" onclick="clickVideoCircle(1)">
+                        1
+                    </div>
+                    <div class="video-circle" onclick="clickVideoCircle(2)">
+                        2
+                    </div>
+                    <div class="video-circle" onclick="clickVideoCircle(3)">
+                        3
+                    </div>
+                    <div class="video-circle" onclick="clickVideoCircle(4)">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 文章区域 -->
+        <div class="article">
+            <div class="article-btn heart clearfix">
+                <div class="btn-active recommend-article">
+                    推荐文章
+                </div>
+                <div class="newest-article">
+                    最新文章
+                </div>
+            </div>
+            <div class="article-content heart">
+                
+            </div>
+            <div class="article-page">
+                <div class="article-pagecontent">
+                    <div class="page-circle" onclick="clickArticleCircle(1)">
+                        1
+                    </div>
+                    <div class="page-circle" onclick="clickArticleCircle(2)">
+                        2
+                    </div>
+                    <div class="page-circle" onclick="clickArticleCircle(3)">
+                        3
+                    </div>
+                    <div class="page-circle" onclick="clickArticleCircle(4)">
+                        ...
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+
+</body>
+<script src="./js/jquery-1.12.4.js"></script>
+<script src="./js/public.js"></script>
+<script src="./js/index.js"></script>
+</html>
+ 
+
+
+
+    

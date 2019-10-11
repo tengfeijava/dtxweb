@@ -1,0 +1,62 @@
+body,html{
+    height: 100%;
+    background-color: #eff3f5;
+}
+/* 登录框所需的css */
+.inputArea{
+    width: 500px;
+    height: 320px;
+    border-radius: 15px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    top: 150px;
+    background-color: #fff;
+    display: none;
+}
+.inputArea .inputUser,
+.inputArea .inputPwd{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.inputArea .inputUser input,
+.inputArea .inputPwd input{
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+    height: 21px;
+    vertical-align: top;
+    padding-bottom: 1px;
+}
+.inputArea .sureBtn{
+    width: 200px;
+    height: 40px;
+    background-color: #000;
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%;
+    margin-left: -100px;
+    background-color: #eff3f5;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+}
+
+.wrapper{
+    background-color: #fff;
+    height: 1000px;
+    margin-top: 20px;
+    position: relative;
+}
+.wrapper .backToIndex{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 18px;
+}
+.wrapper .backToIndex:hover{
+    color: #000;
+}

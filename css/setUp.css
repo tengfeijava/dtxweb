@@ -1,0 +1,103 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#setup-bg{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/loginBg.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+#setup-bg .setup{
+    width: 556.8px;
+    height: 600px;
+    border-radius: 5px;
+    background: #fff;
+    margin: auto;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 6px 5px #aaa;
+}
+.setup p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #47ac7f;
+}
+.setup>div{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.setup>div>span{
+    font-size: 14px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 12px; 
+}
+.setup>div>input[type="text"]{
+    width: 50%;
+    height: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    float:left;
+    box-sizing: border-box;
+    margin-right: 8px;
+    padding-left: 10px;           
+}
+.setup .name-tips{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 10px;
+    color: red;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+.setup>div:nth-child(3){
+    margin-top: 50px;
+}
+.setup>div>div{
+    margin-top: 4px;
+}
+.setup div input[type="radio"]{
+    margin-right: 4px;
+}
+.setup div input[type="file"]{
+    width: 70px;
+    height: 80px;
+    margin-top: 2px;
+}
+.setup div img{
+    width: 100px;
+    height: 100px;
+    background-color: #bbb;
+    display: block;
+    margin-top: -30px;
+}
+.setup .setup-tips{
+    font-size: 14px;
+    color: red;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+.setup .setup-btn{
+    width: 70%;
+    height: 40px;
+    background-color: #e4e4e4;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: #aaa;
+}
+.setup .setup-btn:hover{
+    color: black;
+}

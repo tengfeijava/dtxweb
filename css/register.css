@@ -1,0 +1,100 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#register-bg{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/loginBg.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+#register-bg .register{
+    width: 556.8px;
+    height: 450px;
+    border-radius: 5px;
+    background: #fff;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 6px 5px #aaa;
+}
+.register p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #47ac7f;
+}
+.register .register-tel,
+.register .register-pwd,
+.register .register-confirm{
+    width: 70%;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    display: block;
+    margin-top: 34px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.register .tel-tips,
+.register .pwd-tips,
+.register .code-tips{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 12px;
+    color: red;
+    display: none;
+    margin-bottom: -10px;
+}
+.register .register-code{
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.register .register-inputCode{
+    width: 45%;
+    float: left;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    padding-left: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.register .register-getCode{
+    width: 45%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+    font-size: 14px;
+    background-color: #e4e4e4;
+    color: #aaa;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.register .register-btn{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e4e4e4;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    color: #aaa;
+    margin-top: 30px; 
+    cursor: pointer;
+    font-size: 18px;
+}
+.register .register-btn:hover{
+    color: black;
+}
+.register .register-getCode:hover{
+    color: black;
+}

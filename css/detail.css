@@ -1,0 +1,452 @@
+/* 整体css区域 */
+html,body{
+    width: 100%;
+    background-color: #eff3f5;
+}
+#wrapper{
+    width: 100%;
+    position: relative;
+}
+/* 顶部导航栏 */
+#wrapper .top-bar{
+    width: 100%;
+    height: 70px;
+    background-color: 70px;
+    background-color: #fff;
+    /* overflow: hidden; */
+}
+#wrapper .top-bar .bar-content{
+    height: 100%;
+    position: relative;
+}
+#wrapper .top-bar .bar-content .bar-left img{
+    width: 159px;
+    height: 54px;
+    margin-top: 8px;
+    margin-right: 30px;
+    display: block;
+}
+#wrapper .top-bar .bar-content .bar-left h2{
+    height: 70px;
+    line-height: 70px;
+    margin-left: 20px;
+}
+#wrapper .top-bar .bar-content .bar-left a,
+#wrapper .top-bar .bar-content .bar-right a{
+    font-size: 18px;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    margin-left: 50px;
+    text-align: center;
+}
+#wrapper .top-bar .bar-content .bar-left a:hover,
+#wrapper .top-bar .bar-content .bar-right a:hover{
+    color: #1dc6b5;
+}
+#wrapper .top-bar .bar-content .bar-right{
+    width: 120px;
+    height: 100%;
+    display: block;
+}
+#wrapper .top-bar .bar-content .bar-right a{
+    float: right;
+    font-size: 16px;
+    margin-left: 0;
+    width: 50px;
+    text-align: center;
+    margin-right: 10px;
+}
+#wrapper .top-bar .bar-content .bar-self{
+    height: 100%;
+    width: 192px;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    display: none;
+}
+#wrapper .top-bar .bar-content .bar-afterLogin{
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    right: 51px;
+    top: 70px;
+    background-color: #fff;
+    display: none;
+}
+#wrapper .top-bar .bar-content .bar-afterLogin .bar-setUp,
+#wrapper .top-bar .bar-content .bar-afterLogin .bar-logout{
+    width: 90px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #333;
+    display: block;
+}
+#wrapper .top-bar .bar-content .bar-afterLogin .bar-setUp:hover,
+#wrapper .top-bar .bar-content .bar-afterLogin .bar-logout:hover{
+    color: #1dc6b5;
+}
+#wrapper .top-bar .bar-content .bar-avatar{
+    display: block;
+    background-color: #aaa;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+    display: none;
+}
+/* 作者信息栏 */
+#wrapper .authorInformation{
+    border-bottom: 1px solid #e2e7eb;
+    box-sizing: border-box;
+}
+#wrapper .authorInformation .author-title{
+    width: 960px;
+    height: 130px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 20px;
+    border-right: 1px solid #e2e7eb;
+    box-sizing: border-box;
+    position: relative;
+}
+#wrapper .authorInformation .author-title h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+#wrapper .authorInformation .author-title p{
+    color: #cacaca;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#wrapper .authorInformation .author-title .original{
+    width: 70px;
+    height: 26px;
+    font-size: 12px;
+    background-color: #1dc6b5;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 26px;
+    text-align: center;
+}
+#wrapper .authorInformation .author-title .encourage{
+    position: absolute;
+    right: 50px;
+    top: 48%;
+    transform: translate(0,-50%);
+    display: flex;
+}
+#wrapper .authorInformation .author-title .seenIncrement{
+    position: absolute;
+    top: 91px;
+    left: 100px;
+    width: 160px;
+    font-size: 14px;
+}
+#wrapper .authorInformation .author-title .seenIncrement span{
+    font-weight: 700;
+}
+#wrapper .authorInformation .author-title .encourage img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+#wrapper .authorInformation .author-title .encourage div{
+    font-size: 26px;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: #cacaca;
+}
+#wrapper .authorInformation .author-infor{
+    width: 325px;
+    height: 130px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+#wrapper .authorInformation .author-infor .infor-avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#wrapper .authorInformation .author-infor h4{
+    width: 128px;
+    margin-top: 54px;
+    margin-left: 20px;
+}
+#wrapper .authorInformation .good-content{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#wrapper .authorInformation .infor-good{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+/*内容展示区域*/
+#wrapper .content{
+    background-color: #fff;
+    overflow: hidden;
+    white-space: pre-line;
+}
+#wrapper .content .content-title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#wrapper .content .content-area{
+    width: 1160px;
+    margin: 0 auto;
+    line-height: 50px;
+    margin-bottom: 20px;
+    text-indent: 10em;
+    white-space: pre-line;
+    display: block;
+    font-size: 18px;
+}
+#wrapper .content .content-img{
+    width: 640px;
+    margin: 0 auto;
+    background-color: #ccc;
+    display: block;
+    margin-bottom: 20px;
+}
+#wrapper .content .content-video{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#wrapper .content-video video{
+    object-fit: fill;
+    /* max-width: 960px !important;
+    max-height: 720px !important;
+    min-width: 640px !important;
+    min-height: 480px !important; */
+    width: 960px !important;
+    height: 540px !important;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.content .video-control{
+    /* js加载width top = 视频height + 20px video progress的top*/
+    /* control 960 505  progress 960 501 */
+    height: 40px;
+    background: black;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    z-index: 1;
+}
+.content .video-control .video-toolbar{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+.content .video-control .video-toolbar .control-play{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    left: 4%;
+    cursor: pointer;
+}
+.content .video-control .video-toolbar .control-time{
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 8%;
+    height: 100%;
+}
+.content .video-control .video-toolbar .control-fullScreen{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 8%;
+    cursor: pointer;
+}
+.content .video-progress{
+    left: 50%;
+    transform: translate(-50%);
+    height: 4px;
+    background-color: #a1a1a1;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999999;
+}
+.content .video-progress .progress{
+    width: 0px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    background-color: #0087F3
+}
+.content .video-progress .progress-btn{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #0087F3;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    z-index: 99999;
+    cursor: pointer;
+}
+/* 发表评论区 */
+#wrapper .publish{
+    background-color: #fff;
+    margin-top: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #e2e7eb;
+}
+#wrapper .publish .publish-login{
+    width: 1245px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(255,248,232);
+    overflow: hidden;
+    margin-bottom: 20px;
+    /* display: none; */
+}
+#wrapper .publish .publish-login p{
+    color: #333;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#wrapper .publish .publish-login div a{
+    display: block;
+    width: 70px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 27px;
+}
+#wrapper .publish .publish-login div a:first-child:hover{
+    color: #1dc6b5;
+}
+#wrapper .publish .publish-login div a:last-child{
+    margin-right: 40px;
+    background-color: rgb(255,227,0);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#wrapper .publish-textarea{
+    height: 258px;
+    width: 1245px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+}
+#wrapper .publish-textarea textarea{
+    width: 100%;
+    height: 160px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+#wrapper .publish .sendTextarea{
+    width: 146px;
+    height: 52px;
+    line-height: 54px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(244, 244, 244);
+    color: rgb(204, 204, 204);
+}
+#wrapper .publish .sendTextarea:hover{
+    color: #333;
+}
+/* 评论区 */
+#wrapper .comment{
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#wrapper .comment .allComments{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#wrapper .comment .allComments p{
+    font-size: 18px;
+    color: #333;
+}
+#wrapper .comment .allComments div{
+    margin-left: 10px;
+    margin-top: 3px;
+    color: #aaa;
+}
+#wrapper .comment .commentsLi li{
+    width: 1205px;
+    margin: 0 auto;
+    padding-top: 60px; 
+    padding-bottom: 60px;
+    position: relative;
+    border-bottom: 1px solid #eff3f5;
+}
+#wrapper .comment .commentsLi{
+    margin-bottom: 100px;
+}
+#wrapper .comment .commentsLi li .commentator img{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+#wrapper .comment .commentsLi li .comment-self p:first-child{
+    font-weight: 700;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+#wrapper .comment .commentsLi li .comment-self p:last-child{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #aaa;
+}
+#wrapper .comment .commentsLi li .comment-content{
+    margin-top: 14px;
+    margin-left: 80px;
+    line-height: 28px;
+}
+
+#wrapper .video-mask{
+    width: 960px;
+    height: 540px;
+    background: #000;
+    position: absolute;
+    z-index: 99999;
+    top: 20px;
+    left: 162px;
+}
+#wrapper .navCode{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+

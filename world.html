@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>欢迎来到电梯侠的世界！</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/world.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="top-bar">
+            <div class="bar-content heart">
+                <div class="bar-left flex left">
+                    <img alt="" src="./img/logo.png">
+                    <a href="./index.html">首页</a>
+                </div> 
+                <div class="bar-right right clearfix">
+                    <a href="./register.html">注册</a>
+                    <a href="./login.html">登录</a>
+                </div>
+                <div class="bar-self right">
+                    欢迎您
+                </div>
+                <img src="" alt="" class="bar-avatar right">
+                <div class="bar-afterLogin">
+                    <a class="bar-setUp" href="./setUp.html">
+                        设置
+                    </a>
+                    <a class="bar-logout" href="javascript:;">
+                        退出
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content heart">
+            <h2>欢迎来到电梯侠的世界！</h2>
+            <div class="content-uploadBtn">
+                我也要上传
+            </div>
+            <div class="content-show">
+            </div>
+        </div>
+    </div>
+    <div class="mask">
+        <div class="mask-upload">
+            <img src="./img/fail.png" alt="" class="mask-close">
+            <form action="" id="mask-uploadForm" name="fm" method="POST">
+                <input type="file" name="upload" class="mask-chooseFile" multiple id="mask-chooseFile">
+            </form>
+            <div class="mask-img">
+                
+            </div>
+            <div class="blank"></div>
+            <div class="mask-progress">
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery-1.12.4.js"></script>
+<script src="./js/public.js"></script>
+<script src="./js/world.js"></script>
+</html>

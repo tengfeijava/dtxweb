@@ -1,0 +1,139 @@
+html,body{
+    width: 100%;
+    background-color: #eff3f5;
+}
+#wrapper{
+    width: 100%;
+    position: relative;
+}
+/* 顶部导航栏 */
+#wrapper .top-bar{
+    width: 100%;
+    height: 70px;
+    background-color: 70px;
+    background-color: #fff;
+    /* overflow: hidden; */
+}
+#wrapper .top-bar .bar-content{
+    height: 100%;
+    position: relative;
+}
+#wrapper .top-bar .bar-content .bar-left img{
+    width: 159px;
+    height: 54px;
+    margin-top: 8px;
+    margin-right: 30px;
+    display: block;
+}
+#wrapper .top-bar .bar-content .bar-left h2{
+    height: 70px;
+    line-height: 70px;
+    margin-left: 20px;
+}
+#wrapper .top-bar .bar-content .bar-left a,
+#wrapper .top-bar .bar-content .bar-right a{
+    font-size: 18px;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    margin-left: 50px;
+    text-align: center;
+}
+#wrapper .top-bar .bar-content .bar-left a:hover,
+#wrapper .top-bar .bar-content .bar-right a:hover{
+    color: #1dc6b5;
+}
+#wrapper .top-bar .bar-content .bar-right{
+    width: 120px;
+    height: 100%;
+    display: block;
+}
+#wrapper .top-bar .bar-content .bar-right a{
+    float: right;
+    font-size: 16px;
+    margin-left: 0;
+    width: 50px;
+    text-align: center;
+    margin-right: 10px;
+}
+#wrapper .top-bar .bar-content .bar-self{
+    height: 100%;
+    width: 192px;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    display: none;
+}
+#wrapper .top-bar .bar-content .bar-afterLogin{
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    right: 51px;
+    top: 70px;
+    background-color: #fff;
+    display: none;
+}
+#wrapper .top-bar .bar-content .bar-afterLogin .bar-setUp,
+#wrapper .top-bar .bar-content .bar-afterLogin .bar-logout{
+    width: 90px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #333;
+    display: block;
+}
+#wrapper .top-bar .bar-content .bar-afterLogin .bar-setUp:hover,
+#wrapper .top-bar .bar-content .bar-afterLogin .bar-logout:hover{
+    color: #1dc6b5;
+}
+#wrapper .top-bar .bar-content .bar-avatar{
+    display: block;
+    background-color: #aaa;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+    display: none;
+}
+
+#wrapper .show{
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#wrapper .show h2{
+    text-align: center;
+    margin-top: 40px;
+}
+#wrapper .show-choose{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 0;
+    font-size: 18px;
+}
+#wrapper .show-choose a:hover{
+    font-weight: 700;
+    color: #1dc6b5
+}
+#wrapper .show .posters{
+    width: 885px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#wrapper .show .posters li {
+    width: 375px;
+    height: 812px;
+    float: left;
+    margin-bottom: 40px;
+}
+#wrapper .show .posters li:nth-child(odd){  
+    margin-right: 135px;
+}
+#wrapper .show .posters img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="no-referrer">
+    <title>欢迎您！</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/detail.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- 顶部导航栏 -->
+        <div class="top-bar">
+            <div class="bar-content heart">
+                <div class="bar-left flex left">
+                    <img alt="" src="./img/logo.png">
+                    <a href="./index.html">首页</a>
+                </div> 
+                <div class="bar-right right clearfix">
+                    <a href="./register.html">注册</a>
+                    <a href="./login.html">登录</a>
+                </div>
+                <div class="bar-self right">
+                    欢迎您，李
+                </div>
+                <img src="" alt="" class="bar-avatar right">
+                <div class="bar-afterLogin">
+                    <a class="bar-setUp" href="./setUp.html">
+                        设置
+                    </a>
+                    <a class="bar-logout" href="javascript:;">
+                        退出
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 作者信息栏 -->
+        <div class="authorInformation heart clearfix">
+            <div class="author-title left">
+                <!-- <h2>${res.data.viftitle}</h2>
+                <p>${res.data.viuploadTime}发布</p>
+                <div class="original">原创视频</div>
+                <div class="encourage">
+                    <img src="./img/yellow.png">
+                    <div>26</div>
+                </div> -->
+            </div>
+            <div class="author-infor left">
+                <!-- <img src="./img/banner3.png" alt="" class="infor-avatar left">
+                <h4 class="left">托天之福托天之福</h4> -->
+            </div>
+        </div>
+        <!-- 内容栏 -->
+        <div class="content heart">
+            <!-- <div class="content-title">${res.pojos.viztitle}</div>
+            <div class="content-area">
+                ${res.pojos.viacontent}
+            </div>
+            <div class="content-video">
+                <video class="videoHTML" muted autoplay src="https://dytz.oss-cn-beijing.aliyuncs.com/%E8%A7%A3%E5%BF%A7%E9%82%B5%E5%B8%85%20-%20%E5%86%99%E7%BB%99%E9%BB%84%E6%B7%AE.mp4"></video>
+                <div class="video-progress">
+                    <div class="progress"></div>
+                    <div class="progress-btn"></div>
+                </div>
+                <div class="video-control">
+                    <div class="video-toolbar">
+                        <div class="control-play">
+                            <img src="./img/start.png" alt="" class="video-img">
+                        </div>
+                        <div class="control-time">
+                            <span>00:00&nbsp;</span>
+                            <span>/&nbsp;</span>
+                            <span>34:16&nbsp;</span>
+                        </div>
+                        <div class="control-fullScreen">
+                            <img src="./img/fullScreen.png" alt="" class="video-img">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <!-- 发表评论区 -->
+        <div class="publish heart">
+            <div class="publish-login">
+                <p class="left">大侠，别默默的看了，快登录发表一下您的意见吧！ :)</p>
+                <div class="right flex">
+                    <a href="./register.html">立即注册</a>
+                    <a href="./login.html">登录</a>
+                </div> 
+            </div>
+            <div class="publish-textarea">
+                <textarea name="" id="" cols="30" rows="10" placeholder="说点什么吧..." class="textarea"></textarea>
+                <div class="sendTextarea right">发表</div>
+            </div>
+        </div>
+        <!-- 评论区 -->
+        <div class="comment heart">
+            <div class="allComments clearfix">
+                <p class="left">全部评论</p>
+                <div class="left commentsNumber"></div>
+            </div>
+            <ul class="commentsLi">
+                
+            </ul>
+        </div>
+        
+    </div>
+</body>
+<script src="./js/jquery-1.12.4.js"></script>
+<script src="./js/template-web.js"></script>
+<script src="./js/public.js"></script>
+<script src="./js/detail.js"></script>
+</html>

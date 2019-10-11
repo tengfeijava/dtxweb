@@ -1,0 +1,100 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#forget-bg{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/loginBg.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+#forget-bg .forget{
+    width: 556.8px;
+    height: 450px;
+    border-radius: 5px;
+    background: #fff;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 6px 5px #aaa;
+}
+.forget p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #47ac7f;
+}
+.forget .forget-tel,
+.forget .forget-pwd,
+.forget .forget-confirm{
+    width: 70%;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    display: block;
+    margin-top: 34px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.forget .tel-tips,
+.forget .pwd-tips,
+.forget .code-tips{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 12px;
+    color: red;
+    margin-bottom: -10px;
+    display: none;
+}
+.forget .forget-code{
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.forget .forget-inputCode{
+    width: 45%;
+    float: left;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    padding-left: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.forget .forget-getCode{
+    width: 45%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+    font-size: 14px;
+    background-color: #e4e4e4;
+    color: #aaa;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.forget .forget-btn{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e4e4e4;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    color: #aaa;
+    margin-top: 30px; 
+    cursor: pointer;
+    font-size: 18px;
+}
+.forget .forget-btn:hover{
+    color: black;
+}
+.forget .forget-getCode:hover{
+    color: black;
+}
